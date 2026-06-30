@@ -172,7 +172,7 @@ class BimbinganManager extends Component
 
         $pengajuan->addProgress('selesai', 'Kerja Praktik (KP) dinyatakan selesai dan lulus oleh Dosen Pembimbing.');
 
-        session()->flash('message', 'Kerja Praktik mahasiswa dinyatakan selesai.');
+        session()->flash('message', 'Kerja Praktik mahasiswa dinyatakan selesai');
 
         if ($this->selectedPengajuanId == $id) {
             $this->selectStudent($id);
